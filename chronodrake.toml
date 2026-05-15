@@ -1,0 +1,31 @@
+excluded_dirs = [
+    "node_modules",
+    ".git",
+    "target",
+    "dist",
+    "build",
+    ".next",
+    ".cache",
+    "__pycache__",
+    ".venv",
+    "venv",
+    ".tox",
+]
+scan_depth = 5
+log_level = "info"
+incremental_scan = true
+enable_cache = true
+
+[reports]
+project_status = true
+ai_handoff = true
+changes = true
+timeline = true
+recommendations = true
+knowledge_graph = true
+impact_analysis = true
+module_map = true
+
+[snapshots]
+max_snapshots = 10
+auto_prune = true

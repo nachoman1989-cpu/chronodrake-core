@@ -1,0 +1,13 @@
+target/
+node_modules/
+memory/
+.cache/
+.env
+.env.local
+*.db
+*.sqlite
+dist/
+build/
+.DS_Store
+Thumbs.db
+.vscode/settings.json
