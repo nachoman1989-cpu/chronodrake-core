@@ -13,6 +13,7 @@ mod migrations;
 mod context;
 mod doctor;
 mod workspace;
+mod cli;
 
 use anyhow::Result;
 use std::env;
